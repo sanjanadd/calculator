@@ -34,7 +34,6 @@ int modulo(int a, int b) {
         cout << "Error! Cannot perform modulo by zero." << endl;
         return 0;
     }
-   
 }
 
 int main() {
@@ -81,7 +80,7 @@ int main() {
                 cout << "Result: " << divide(a, b) << endl;
                 break;
             case 5:
-                cout <<"Result: " << modulo(a, b) << endl;
+                cout << "Result: " << modulo(a, b) << endl;
                 break;
             default:
                 cout << "Invalid option! Please select a valid option." << endl;
